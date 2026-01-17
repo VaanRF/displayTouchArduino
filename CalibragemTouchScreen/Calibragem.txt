@@ -1,0 +1,10 @@
+const int XP=6,XM=A2,YP=A1,YM=7; //240x320 ID=0x9341
+const int TS_LEFT=167,TS_RT=906,TS_TOP=955,TS_BOT=200;
+
+PORTRAIT  CALIBRATION     240 x 320
+x = map(p.x, LEFT=167, RT=906, 0, 240)
+y = map(p.y, TOP=955, BOT=200, 0, 320)
+
+LANDSCAPE CALIBRATION     320 x 240
+x = map(p.y, LEFT=955, RT=200, 0, 320)
+y = map(p.x, TOP=906, BOT=167, 0, 240)
